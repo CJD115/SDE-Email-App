@@ -1,0 +1,26 @@
+.menu {
+    display: none;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    background-color: #17a2b8;
+    color: white;
+    width: 50%;
+    position: fixed;
+    left: 0%;
+    height: 100%;
+
+}
+
+.menu.open {
+    display: flex;
+}
+
+@media (min-width: 768px) {
+    .menu {
+        display: flex;
+        width: 120px;
+        position: static;
+        height: 100vh;
+    }
+ }
